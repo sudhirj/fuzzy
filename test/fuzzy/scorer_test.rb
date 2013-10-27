@@ -4,7 +4,7 @@ require 'minitest/autorun'
 require 'active_support/all'
 require 'fuzzy'
 
-class TestFuzzy < Minitest::Test
+class TestScorer < Minitest::Test
 	def test_simple_whole_word_scoring
 		sc = Fuzzy::Scorer.new([
 			{weight: 4, terms: ['a', 'b']},
