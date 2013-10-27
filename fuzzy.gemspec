@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fuzzy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fuzzy"
+  spec.name          = "fuzzy-prompt"
   spec.version       = Fuzzy::VERSION
   spec.authors       = ["Sudhir Jonathan"]
   spec.email         = ["sudhir.j@gmail.com"]
